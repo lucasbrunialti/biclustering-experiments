@@ -240,9 +240,11 @@ class DeltaBiclustering(object):
 
         Aline = A.copy()
 
+        Is = []
+        Js = []
+
         for i in range(num_biclusters):
             n, m = Aline.shape
-            print Aline.shape
 
             plt.matshow(Aline, cmap=plt.cm.Blues, vmin=min_v, vmax=max_v)
             plt.show()
@@ -255,16 +257,21 @@ class DeltaBiclustering(object):
             else:
                 (C,I,J) = self.remove_multiple_nodes(Aline, delta, alpha)
 
-            D = self.add_nodes(C, A, alpha, I, J)
+            (D,I,J) = self.add_nodes(C, A, alpha, I, J)
 
-            biclusters.append(C)
+            biclusters.append(D)
 
-            plt.matshow(C, cmap=plt.cm.Blues, vmin=min_v, vmax=max_v)
+            plt.matshow(D, cmap=plt.cm.Blues, vmin=min_v, vmax=max_v)
             plt.show()
+
+            print D.shape
+
+            Is.append(I)
+            Js.append(J)
 
             Aline = self.mask(Aline, I, J, min_v, max_v)
 
         plt.matshow(Aline, cmap=plt.cm.Blues, vmin=min_v, vmax=max_v)
         plt.show()
 
-        return biclusters
+        return (biclusters,Is,Js)
