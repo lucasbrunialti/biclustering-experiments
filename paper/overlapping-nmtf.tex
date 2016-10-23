@@ -1,0 +1,106 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+% \title{	
+% \normalfont \normalsize 
+% \textsc{university, school or department name} \\ [25pt] % Your university, school and/or department name(s)
+% \horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+% \huge Assignment Title \\ % The assignment title
+% \horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+% }
+
+% \author{John Smith} % Your name
+
+% \date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+% \maketitle % Print the title q
+
+\section{Overlapping Nonnegative Matrix tri-Factorization}
+
+This is a proposal algorithm that aims to solve the following problem:
+$${\cal F} = \textit{min } ||X - U\sum_{i=1}^{k}I^{(i)}SV^{(i)}||^{2}_{F}$$
+% $$\textit{s.t. } U^TU = I$$
+% $$\left[ \begin{array}{c} V^{(1)} \\ V^{(2)} \\ \vdots \\ V^{(k)} \end{array} \right]^T\left[ \begin{array}{c} V^{(1)} \\ V^{(2)} \\ \vdots \\ V^{(k)} \end{array} \right] = I$$
+% $$\left[ \begin{array}{c} V^{(1)} \\ V^{(2)} \\ \vdots \\ V^{(k)} \end{array} \right] \geq 0$$
+$$\textit{s.t. } U, S, V^{(1)}, \dots, V^{(k)} \geq 0$$
+\paragraph{}
+where $X \in \mathbb{R}^{n \times m}$ a data matrix, $U \in \mathbb{R}^{n \times k}$ an matrix containing rows clusters, $I^{(i)} \in \mathbb{R}^{k \times k}$ an indicator matrix, $S \in \mathbb{R}^{k \times l}$ a block matrix, $V^{(i)} \in \mathbb{R}^{l \times m} \forall i \in \{1, \dots, k\}$ matrices containing columns clusters for each row cluster, and $||\cdot||^2_{F}$ denotes the frobenius norm.
+
+\paragraph{}
+Consider the lagrange function:
+$${\cal L} = {\cal F} - tr(\Lambda_1 U^T) - tr(\Lambda_2 S^T) - \sum_{i=1}^{k} tr(A_i V^{(i)^T})$$
+\paragraph{}
+where $\Lambda_1, \Lambda_2$ and $A_i \forall i \in \{1, \dots, k\}$ are lagrange multipliers: $\Lambda_1 \in \mathbb{R}^{n \times k}$, $\Lambda_1 \in \mathbb{R}^{k \times l}$, and $A_i \in \mathbb{R}^{k \times l} \forall i \in \{1, \dots, k\}$.
+
+\paragraph{}
+KKT Conditions:
+\begin{itemize}
+\item $\frac{\partial {\cal L}}{\partial U} = 0$
+\item $\frac{\partial {\cal L}}{\partial S} = 0$
+\item $\frac{\partial {\cal L}}{\partial V^{(i)}} = 0, \forall i \in \{1, \dots, k\}$
+\item $\Lambda_1 \odot U = 0$
+\item $\Lambda_2 \odot S = 0$
+\item $A_i \odot V^{(i)} = 0, \forall i \in \{1, \dots, k\}$
+\end{itemize}
+\paragraph{}
+where $\odot$ denotes the element-wise multiplication.
+
+\paragraph{}
+Given that:
+$$\frac{\partial}{\partial B} tr \left[ (RBC + D)(RBC + D)^T \right] = 2R^T(RBC + D)C^T = 2R^trBCC^T + 2R^TDC^T$$
+
+\paragraph{}
+It is possible to calculate $\frac{\partial {\cal L}}{\partial U}$, considering $R = -I, B = U, C = \sum I^{(i)}SV^{(i)}, D = X$:
+$$\frac{\partial {\cal L}}{\partial U} = 2 U \sum_{i=1}^k I^{(i)} S V^{(i)} \sum_{j=1}^k V^{(j)^T} S^T I^{(j)} - 2 X \sum_{i=1}^k V^{(i)^T} S^T I^{(i)} - \Lambda_1$$
+
+\paragraph{}
+For $\frac{\partial {\cal L}}{\partial V}$, consider $R = U \sum I^{(i)} S, B = V^{(i)}, C = -I, D = X$:
+$$\frac{\partial {\cal L}}{\partial V^{(j)}} = 2 S^T I^{(j)} U^T U I^{(j)} S V^{(j)} - 2 S^T I^{(j)}  U^T X - A_j, \forall j \in \{1, \dots, k\}$$
+
+\paragraph{}
+For $\frac{\partial {\cal L}}{\partial S}$, consider that $\frac{\partial (A X B X^T C)}{\partial X} = A^T C^T X B^T + C A X B$:
+$$\frac{\partial {\cal L}}{\partial S} = \frac{\partial}{\partial S} tr (X - U \sum_{i=1}^{k} I^{(i)} S V^{(i)}) (U \sum_{j=1}^{k} I^{(j)} S V^{(j)})^T   - tr(\Lambda_2 S^T)$$
+
+$$= \frac{\partial}{\partial S} tr(X^TX) - 2 \frac{\partial}{\partial S} tr(X U \sum_{i=1}^{k} I^{(i)} S V^{(i)}) + tr(\sum_{j=1}^k \sum_{i=1}^k U I^{(i)} S V^{(i)} V^{(j)^T} S^T I^{(j)} U^T ) - tr(\Lambda_2 S^T)$$
+
+$$= -2 \sum_{i=1}^{k} I^{(i)} U^T X^T V^{(i)^T} + \sum_{i=1}^{k} \sum_{j=1}^{k} [ I^{(i)} U^T U I^{(j)} S V^{(j)} V^{(i)^T} +  I^{(j)} U^T U I^{(i)} S V^{(i)} V^{(j)^T} ]$$
+
+$$= -2 \sum_{i=1}^{k} I^{(i)} U^T X^T V^{(i)^T} + \sum_{i=1}^{k} \sum_{j=1}^{k} I^{(i)} U^T U I^{(j)} S V^{(j)} V^{(i)^T}$$
+
+\end{document}

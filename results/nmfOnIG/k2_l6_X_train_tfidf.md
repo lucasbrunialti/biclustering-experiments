@@ -1,0 +1,292 @@
+Run Params: k2 l6 X_train_tfidf
+======================
+
+## Scores
+
+#### Rows scores
+- Rand score: 0.721115527788
+- Normalized mutual information score: 0.644639841961
+
+## 0 articles cluster:
+
+#### Term cluster 5 with probability 0.774215
+---------------
+- term: minutos, prob: 0.005327
+- term: gol, prob: 0.004340
+- term: flappy, prob: 0.004283
+- term: bola, prob: 0.004113
+- term: bird, prob: 0.003727
+- term: espanha, prob: 0.002873
+- term: barcelona, prob: 0.002431
+- term: itália, prob: 0.002393
+- term: gols, prob: 0.002359
+- term: time, prob: 0.002335
+- term: partida, prob: 0.002304
+- term: atlético, prob: 0.002199
+- term: defesa, prob: 0.002137
+- term: pontos, prob: 0.002109
+- term: técnico, prob: 0.001955
+- term: tempo, prob: 0.001907
+- term: guardiola, prob: 0.001796
+- term: segundo, prob: 0.001783
+- term: ataque, prob: 0.001758
+- term: messi, prob: 0.001751
+- term: fez, prob: 0.001745
+- term: campo, prob: 0.001740
+- term: madrid, prob: 0.001721
+- term: área, prob: 0.001721
+- term: palmeiras, prob: 0.001702
+- term: nguyen, prob: 0.001693
+- term: app, prob: 0.001673
+- term: madri, prob: 0.001661
+- term: real, prob: 0.001660
+- term: botafogo, prob: 0.001650
+
+#### Term cluster 2 with probability 0.193903
+---------------
+- term: jogo, prob: 0.001885
+- term: jogos, prob: 0.001295
+- term: área, prob: 0.001269
+- term: equipe, prob: 0.001033
+- term: bem, prob: 0.000990
+- term: alves, prob: 0.000957
+- term: dois, prob: 0.000846
+- term: tempo, prob: 0.000732
+- term: segundo, prob: 0.000694
+- term: paulo, prob: 0.000683
+- term: vai, prob: 0.000613
+- term: conta, prob: 0.000598
+- term: ano, prob: 0.000523
+- term: games, prob: 0.000512
+- term: ficou, prob: 0.000507
+- term: lugar, prob: 0.000493
+- term: anos, prob: 0.000490
+- term: frente, prob: 0.000488
+- term: final, prob: 0.000452
+- term: towerfall, prob: 0.000449
+- term: cara, prob: 0.000443
+- term: dias, prob: 0.000433
+- term: recebeu, prob: 0.000423
+- term: ficar, prob: 0.000423
+- term: cinco, prob: 0.000393
+- term: neste, prob: 0.000391
+- term: pedro, prob: 0.000388
+- term: maior, prob: 0.000388
+- term: dia, prob: 0.000387
+- term: momento, prob: 0.000364
+
+#### Term cluster 4 with probability 0.029092
+---------------
+- term: pedro, prob: 0.001022
+- term: pessoas, prob: 0.000976
+- term: amora, prob: 0.000938
+- term: cultura, prob: 0.000826
+- term: então, prob: 0.000821
+- term: aqui, prob: 0.000709
+- term: jogos, prob: 0.000697
+- term: trabalho, prob: 0.000687
+- term: personagens, prob: 0.000675
+- term: games, prob: 0.000623
+- term: pessoal, prob: 0.000619
+- term: pra, prob: 0.000605
+- term: ascension, prob: 0.000599
+- term: ministério, prob: 0.000596
+- term: governo, prob: 0.000581
+- term: matt, prob: 0.000580
+- term: the, prob: 0.000546
+- term: brasil, prob: 0.000543
+- term: tão, prob: 0.000534
+- term: game, prob: 0.000531
+- term: vai, prob: 0.000526
+- term: conta, prob: 0.000498
+- term: jam, prob: 0.000495
+- term: gente, prob: 0.000481
+- term: imposto, prob: 0.000461
+- term: dias, prob: 0.000458
+- term: dupla, prob: 0.000458
+- term: canadá, prob: 0.000422
+- term: questão, prob: 0.000386
+- term: onde, prob: 0.000383
+
+
+## 1 articles cluster:
+
+#### Term cluster 3 with probability 0.283724
+---------------
+- term: towerfall, prob: 0.004174
+- term: gente, prob: 0.002106
+- term: amora, prob: 0.001181
+- term: alves, prob: 0.000873
+- term: cultura, prob: 0.000737
+- term: matt, prob: 0.000728
+- term: game, prob: 0.000682
+- term: aqui, prob: 0.000659
+- term: ministério, prob: 0.000629
+- term: brasil, prob: 0.000604
+- term: então, prob: 0.000566
+- term: games, prob: 0.000548
+- term: miniboss, prob: 0.000541
+- term: pedro, prob: 0.000510
+- term: plano, prob: 0.000504
+- term: assim, prob: 0.000477
+- term: jogos, prob: 0.000451
+- term: questão, prob: 0.000414
+- term: videogames, prob: 0.000401
+- term: sarkeesian, prob: 0.000376
+- term: ia, prob: 0.000376
+- term: in, prob: 0.000370
+- term: pessoas, prob: 0.000367
+- term: moacyr, prob: 0.000365
+- term: amigo, prob: 0.000346
+- term: falei, prob: 0.000345
+- term: indie, prob: 0.000340
+- term: indústria, prob: 0.000334
+- term: santo, prob: 0.000331
+- term: canadá, prob: 0.000329
+
+#### Term cluster 4 with probability 0.226784
+---------------
+- term: pedro, prob: 0.001022
+- term: pessoas, prob: 0.000976
+- term: amora, prob: 0.000938
+- term: cultura, prob: 0.000826
+- term: então, prob: 0.000821
+- term: aqui, prob: 0.000709
+- term: jogos, prob: 0.000697
+- term: trabalho, prob: 0.000687
+- term: personagens, prob: 0.000675
+- term: games, prob: 0.000623
+- term: pessoal, prob: 0.000619
+- term: pra, prob: 0.000605
+- term: ascension, prob: 0.000599
+- term: ministério, prob: 0.000596
+- term: governo, prob: 0.000581
+- term: matt, prob: 0.000580
+- term: the, prob: 0.000546
+- term: brasil, prob: 0.000543
+- term: tão, prob: 0.000534
+- term: game, prob: 0.000531
+- term: vai, prob: 0.000526
+- term: conta, prob: 0.000498
+- term: jam, prob: 0.000495
+- term: gente, prob: 0.000481
+- term: imposto, prob: 0.000461
+- term: dias, prob: 0.000458
+- term: dupla, prob: 0.000458
+- term: canadá, prob: 0.000422
+- term: questão, prob: 0.000386
+- term: onde, prob: 0.000383
+
+#### Term cluster 0 with probability 0.224912
+---------------
+- term: amora, prob: 0.001675
+- term: matt, prob: 0.001516
+- term: gente, prob: 0.001491
+- term: brasil, prob: 0.001165
+- term: alves, prob: 0.000951
+- term: vai, prob: 0.000669
+- term: pessoal, prob: 0.000660
+- term: pra, prob: 0.000586
+- term: games, prob: 0.000537
+- term: governo, prob: 0.000467
+- term: jogos, prob: 0.000465
+- term: desenvolvimento, prob: 0.000437
+- term: comitê, prob: 0.000410
+- term: então, prob: 0.000380
+- term: carga, prob: 0.000360
+- term: ascension, prob: 0.000358
+- term: reunião, prob: 0.000353
+- term: ministério, prob: 0.000327
+- term: miniboss, prob: 0.000312
+- term: tipo, prob: 0.000302
+- term: personagens, prob: 0.000297
+- term: jam, prob: 0.000286
+- term: criativo, prob: 0.000267
+- term: pedro, prob: 0.000257
+- term: consoles, prob: 0.000248
+- term: pessoas, prob: 0.000240
+- term: trabalho, prob: 0.000238
+- term: tributária, prob: 0.000237
+- term: produção, prob: 0.000231
+- term: arte, prob: 0.000230
+
+
+## Mistakes
+- http://arena.ig.com.br/2014-09-09/conheca-o-jogo-usado-para-lancar-o-iphone-6.html
+- http://arena.ig.com.br/2014-09-25/avaliacao-do-fifa-15-por-um-jogador-fanatico.html
+- http://arena.ig.com.br/2014-02-12/se-o-voo-de-flappy-bird-nao-foi-genuino-mudancas-sao-necessarias.html
+- http://arena.ig.com.br/2013-11-19/com-mais-de-32-milhoes-de-espectadores-final-de-league-of-legends-bate-recorde.html
+- http://arena.ig.com.br/2013-09-23/simultaneamente-xbox-one-suporta-ate-quatro-aplicativos-e-seis-usuarios.html
+- http://arena.ig.com.br/2013-05-17/new-super-luigi-u-sera-lancado-em-versao-digital-e-em-caixa.html
+- http://arena.ig.com.br/2014-02-10/crie-seu-proprio-flappy-bird-com-este-gerador-de-flappy-birds.html
+- http://arena.ig.com.br/2013-10-29/time-cnb-vence-desafio-internacional-de-league-of-legends-na-bgs-2013.html
+- http://arena.ig.com.br/2012-12-05/jogo-brasileiro-skyrise-runner-chega-de-graca-ao-ios.html
+- http://arena.ig.com.br/2013-02-21/drive-club-e-novo-jogo-dos-criadores-de-motorstorm-para-playstation-4.html
+- http://arena.ig.com.br/2013-02-21/engine-dos-criadores-de-heavy-rain-para-ps4-tem-recursos-de-filmes-em-cg.html
+- http://arena.ig.com.br/2012-05-07/thq-anuncia-company-of-heroes-2.html
+- http://arena.ig.com.br/2013-03-26/square-enix-anuncia-saida-de-ceo-e-prejuizo-de-r-277-milhoes-para-ano-fiscal.html
+- http://esporte.ig.com.br/futebol/2014-09-30/apos-reuniao-com-cbf-arbitros-descartam-greve-no-brasileirao.html
+- http://esporte.ig.com.br/lutas/2012-09-05/anderson-silva-diz-que-ha-boiolas-no-ufc-e-que-usava-vestido-na-infancia.html
+
+## Undecided news:
+- http://arena.ig.com.br/2014-10-09/os-campeonatos-da-brasil-game-show.html
+- http://arena.ig.com.br/2014-09-09/conheca-o-jogo-usado-para-lancar-o-iphone-6.html
+- http://arena.ig.com.br/2013-05-24/aprovado-no-greenlight-contrast-chega-para-pc-xbla-e-psn-ainda-este-ano.html
+- http://arena.ig.com.br/2014-01-03/top-10-jogos-do-corraini-em-2013.html
+- http://arena.ig.com.br/jogos/videogames/2013-11-13/xbox-one-entenda-a-live-do-one.html
+- http://arena.ig.com.br/2013-12-30/top-10-jogos-do-rique-de-2013.html
+- http://arena.ig.com.br/2013-12-27/top-10-jogos-do-teixeira-em-2013.html
+- http://arena.ig.com.br/2013-12-24/top-10-jogos-do-heitor-em-2013.html
+- http://arena.ig.com.br/2013-09-05/xbox-one-pode-vir-a-ter-retro-compatibilidade-atraves-da-nuvem.html
+- http://arena.ig.com.br/2012-12-03/papo--yo-unmechanical-e-out-there-somewhere-foram-grandes-vencedores-do-big.html
+- http://arena.ig.com.br/2014-03-24/riot-e-hbo-se-unem-em-campanha-de-league-of-legends-e-game-of-thrones.html
+- http://arena.ig.com.br/2013-11-19/com-mais-de-32-milhoes-de-espectadores-final-de-league-of-legends-bate-recorde.html
+- http://arena.ig.com.br/2014-01-20/estudo-mostra-que-booth-babes-sao-prejudiciais-ao-sucesso-de-empresas-em-eventos.html
+- http://arena.ig.com.br/2013-01-29/os-melhores-jogos-brasileiros-da-global-game-jam-2013-para-voce-jogar.html
+- http://arena.ig.com.br/2013-09-23/simultaneamente-xbox-one-suporta-ate-quatro-aplicativos-e-seis-usuarios.html
+- http://arena.ig.com.br/2013-05-17/new-super-luigi-u-sera-lancado-em-versao-digital-e-em-caixa.html
+- http://arena.ig.com.br/2013-04-01/jogo-brasileiro-tribot-ja-disponivel-para-ios-chega-tambem-ao-android.html
+- http://arena.ig.com.br/2013-08-12/american-express-lanca-cartao-de-debito-com-arte-de-league-of-legends.html
+- http://arena.ig.com.br/2013-10-29/time-cnb-vence-desafio-internacional-de-league-of-legends-na-bgs-2013.html
+- http://arena.ig.com.br/2013-05-20/diretor-executivo-da-riot-games-de-league-of-legends-deixa-a-empresa-no-brasil.html
+- http://arena.ig.com.br/2012-04-23/conheca-todos-os-personagens-de-league-of-legends.html
+- http://arena.ig.com.br/2013-06-11/knack-killzone-shadowfall-e-drive-club-estarao-disponiveis-no-lancamento-do-ps4.html
+- http://arena.ig.com.br/2013-08-01/criadores-do-classico-para-pc-outcast-anunciam-novo-estudio.html
+- http://arena.ig.com.br/2013-06-10/killer-instinct-ganha-nova-versao-exclusiva-para-xbox-one.html
+- http://arena.ig.com.br/2013-06-10/xbox-live-abandonara-microsoft-points-e-passara-a-usar-dinheiro-real.html
+- http://arena.ig.com.br/2013-05-28/veja-o-trailer-de-lancamento-de-sonic-lost-world.html
+- http://arena.ig.com.br/2013-07-31/wii-u-vendeu-apenas-160-mil-unidades-nos-ultimos-tres-meses.html
+- http://arena.ig.com.br/2013-03-01/conheca-os-novos-minigames-de-game--wario-para-wii-u.html
+- http://arena.ig.com.br/2013-06-10/knights-of-pen-and-paper-+1-edition-chega-dia-18-de-junho.html
+- http://arena.ig.com.br/2013-02-14/nintendo-prepara-new-super-luigi-u-dlc-para-new-super-mario-bros-u.html
+- http://arena.ig.com.br/2013-05-17/nintendo-anuncia-sonic-lost-world-e-sonic--mario-winter-games.html
+- http://arena.ig.com.br/2013-04-02/rockstar-revela-capa-oficial-de-grand-theft-auto-v.html
+- http://arena.ig.com.br/2013-01-21/atari-inicia-processo-para-declarar-falencia.html
+- http://arena.ig.com.br/2012-11-21/jetpack-joyride-chega-ao-psp-ps-vita-e-ps3-pela-playstation-network.html
+- http://arena.ig.com.br/2013-02-21/infamous-second-son-e-novo-jogo-da-serie-para-o-playstation-4.html
+- http://arena.ig.com.br/2012-04-25/jogue-de-graca-jelly-escape-o-novo-jogo-brasileiro-de-plataforma.html
+- http://arena.ig.com.br/2012-11-07/simulador-de-tratores-agricolas-vende-mais-que-medal-of-honor-warfighter.html
+- http://arena.ig.com.br/2012-11-27/conheca-os-quatro-jogos-indie-criados-durante-o-festival-big-em-sp.html
+- http://arena.ig.com.br/2012-08-03/ea-entra-em-acao-contra-a-zynga.html
+- http://arena.ig.com.br/2012-08-15/amc-the-walking-dead-social-game-e-muito-jogo-social-e-pouco-walking-dead.html
+- http://arena.ig.com.br/2012-07-11/segundo-xfire-league-of-legends-e-o-jogo-mais-jogado-no-mundo.html
+- http://arena.ig.com.br/2013-02-21/drive-club-e-novo-jogo-dos-criadores-de-motorstorm-para-playstation-4.html
+- http://arena.ig.com.br/2013-02-21/contrariando-expectativas-blizzard-anuncia-diablo-iii-para-consoles.html
+- http://arena.ig.com.br/2012-06-04/xbox-smartglass-integra-console-mobile-e-internet.html
+- http://arena.ig.com.br/2013-02-21/engine-dos-criadores-de-heavy-rain-para-ps4-tem-recursos-de-filmes-em-cg.html
+- http://arena.ig.com.br/analises/2012-04-20/analise-resident-evil-operation-raccoon-city.html
+- http://arena.ig.com.br/2013-02-14/imagem-de-suposto-controle-de-playstation-4-cai-na-internet.html
+- http://arena.ig.com.br/2013-02-18/no-novo-playstation-retrocompatibilidade-sera-via-streaming-diz-jornal.html
+- http://arena.ig.com.br/2013-04-30/conferencia-da-microsoft-na-e3-acontece-em-10-de-junho.html
+- http://arena.ig.com.br/2012-05-07/thq-anuncia-company-of-heroes-2.html
+- http://arena.ig.com.br/2013-03-26/square-enix-anuncia-saida-de-ceo-e-prejuizo-de-r-277-milhoes-para-ano-fiscal.html
+- http://arena.ig.com.br/2013-03-19/presidente-da-ea-renuncia-ao-cargo.html
+- http://esporte.ig.com.br/futebol/2014-10-11/apesar-do-ebola-copa-africana-de-nacoes-de-futebol-segue-sem-mudancas.html
+- http://esporte.ig.com.br/lutas/2012-07-19/mutante-comemora-elogios-de-chefe-do-ufc-e-sonha-em-lutar-ao-lado-de-belfort.html
+- http://esporte.ig.com.br/basquete/2014-10-10/apos-ano-ausente-ala-do-heat-diz-nunca-ter-duvidado-de-nova-chance-na-nba.html
+- http://esporte.ig.com.br/basquete/2014-10-08/jovens-de-favela-no-rio-tem-aula-inesquecivel-de-basquete-com-campeao-da-nba.html
+- http://esporte.ig.com.br/futebol/2014-09-30/apos-reuniao-com-cbf-arbitros-descartam-greve-no-brasileirao.html
+- http://esporte.ig.com.br/futebol/2014-09-26/chefe-de-arbitragem-da-cbf-rechaca-profissionalizacao-e-critica-tecnologia.html
+- http://esporte.ig.com.br/automobilismo/2014-03-19/aos-83-anos-ecclestone-admite-que-pensa-em-aposentadoria.html
+- http://esporte.ig.com.br/lutas/2012-09-05/anderson-silva-diz-que-ha-boiolas-no-ufc-e-que-usava-vestido-na-infancia.html
+- http://esporte.ig.com.br/lutas/2012-09-04/arianny-celeste-ring-girl-do-ufc-insiste-em-querer-alavancar-carreira-musical.html

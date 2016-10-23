@@ -1,0 +1,190 @@
+Run Params: k4 l2 X_stem_bin
+======================
+
+## Scores
+
+#### Rows scores
+- Rand score: 0.476352102004
+- Normalized mutual information score: 0.552302227533
+
+## 0 articles cluster:
+
+#### Term cluster 1 with probability 0.689278
+---------------
+- term: equip, prob: 0.002470
+- term: marc, prob: 0.002410
+- term: feir, prob: 0.002366
+- term: tim, prob: 0.002259
+- term: jog, prob: 0.002233
+- term: cheg, prob: 0.002147
+- term: part, prob: 0.002134
+- term: torc, prob: 0.002105
+- term: fic, prob: 0.002085
+- term: deix, prob: 0.002051
+- term: segund, prob: 0.002034
+- term: final, prob: 0.001984
+- term: venc, prob: 0.001980
+- term: gol, prob: 0.001941
+- term: volt, prob: 0.001890
+- term: técn, prob: 0.001831
+- term: vitór, prob: 0.001806
+- term: vai, prob: 0.001777
+- term: pont, prob: 0.001741
+- term: pass, prob: 0.001697
+- term: quart, prob: 0.001691
+- term: minut, prob: 0.001685
+- term: tent, prob: 0.001685
+- term: chanc, prob: 0.001676
+- term: cas, prob: 0.001650
+- term: receb, prob: 0.001629
+- term: trê, prob: 0.001599
+- term: próx, prob: 0.001597
+- term: notíc, prob: 0.001585
+- term: doi, prob: 0.001584
+
+#### Term cluster 0 with probability 0.310722
+---------------
+- term: jog, prob: 0.002304
+- term: gam, prob: 0.002074
+- term: apen, prob: 0.002059
+- term: além, prob: 0.001996
+- term: lanç, prob: 0.001841
+- term: nov, prob: 0.001775
+- term: dia, prob: 0.001742
+- term: est, prob: 0.001726
+- term: ano, prob: 0.001717
+- term: precis, prob: 0.001674
+- term: desenvolv, prob: 0.001633
+- term: cri, prob: 0.001596
+- term: pesso, prob: 0.001586
+- term: faz, prob: 0.001551
+- term: cont, prob: 0.001516
+- term: tant, prob: 0.001512
+- term: mund, prob: 0.001504
+- term: assim, prob: 0.001502
+- term: torn, prob: 0.001484
+- term: us, prob: 0.001470
+- term: acontec, prob: 0.001398
+- term: brasil, prob: 0.001330
+- term: possível, prob: 0.001325
+- term: dur, prob: 0.001318
+- term: qualqu, prob: 0.001314
+- term: consol, prob: 0.001308
+- term: mai, prob: 0.001294
+- term: event, prob: 0.001293
+- term: atual, prob: 0.001266
+- term: alg, prob: 0.001255
+
+#### Mistakes
+- http://arena.ig.com.br/2014-10-09/os-campeonatos-da-brasil-game-show.html
+- http://arena.ig.com.br/2014-09-09/conheca-o-jogo-usado-para-lancar-o-iphone-6.html
+- http://arena.ig.com.br/2014-09-25/avaliacao-do-fifa-15-por-um-jogador-fanatico.html
+- http://arena.ig.com.br/2014-09-11/paul-mccartney-escreveu-musica-para-destiny-sem-interesses-financeiros.html
+- http://arena.ig.com.br/especiais/infograficos/2014-06-06/infografico-historia-evolucao-dos-controles-joystick-gamepad.html
+- http://arena.ig.com.br/2012-11-29/a-industria-fantasma-em-busca-do-peixonauta-dos-games.html
+- http://arena.ig.com.br/2012-07-24/festival-big-trara-co-fundador-da-bungie-a-sp-veja-novidades.html
+- http://arena.ig.com.br/2014-01-17/um-papo-com-amora-towerfall-miniboss-e-uma-bagagem-cheia-de-novas-experiencias.html
+- http://arena.ig.com.br/2013-05-24/aprovado-no-greenlight-contrast-chega-para-pc-xbla-e-psn-ainda-este-ano.html
+- http://arena.ig.com.br/2013-02-21/jogos-da-psn-comprados-no-ps3-nao-poderao-ser-transferidos-para-o-ps4.html
+- http://arena.ig.com.br/2014-01-03/top-10-jogos-do-corraini-em-2013.html
+- http://arena.ig.com.br/2012-04-26/carta-aberta-da-acigames-desvia-das-acusacoes-e-mantem-duvidas.html
+- http://arena.ig.com.br/2012-11-27/1reasonwhy-os-inumeros-motivos-pelos-quais-ainda-existe-sexismo-nos-games.html
+- http://arena.ig.com.br/jogos/videogames/2013-11-13/playstation-4-as-vantagens-da-playstation-network-e-ps-plus.html
+- http://arena.ig.com.br/jogos/videogames/2013-11-13/xbox-one-os-acessorios-do-xbox-one.html
+- http://arena.ig.com.br/jogos/videogames/2013-11-13/xbox-one-entenda-a-live-do-one.html
+- http://arena.ig.com.br/jogos/videogames/2012-12-13/wii-u-a-evolucao-do-wii-na-era-dos-tablets-e-smartphones.html
+- http://arena.ig.com.br/jogos/videogames/2012-12-13/wii-u-jogos-para-todos-os-gostos-e-bolsos.html
+- http://arena.ig.com.br/jogos/videogames/2012-12-13/wii-u-entenda-o-miiverse-a-nintendo-network-e-os-principais-recursos-online.html
+- http://arena.ig.com.br/jogos/videogames/2012-12-13/wii-u-respostas-para-as-perguntas-mais-frequentes.html
+- http://arena.ig.com.br/2013-12-30/top-10-jogos-do-rique-de-2013.html
+- http://arena.ig.com.br/2013-12-27/top-10-jogos-do-teixeira-em-2013.html
+- http://arena.ig.com.br/2013-12-24/top-10-jogos-do-heitor-em-2013.html
+- http://arena.ig.com.br/2013-09-05/xbox-one-pode-vir-a-ter-retro-compatibilidade-atraves-da-nuvem.html
+- http://arena.ig.com.br/2013-06-11/playstation-plus-sera-necessaria-para-multiplayer-no-ps4.html
+- http://arena.ig.com.br/2012-12-03/papo--yo-unmechanical-e-out-there-somewhere-foram-grandes-vencedores-do-big.html
+- http://arena.ig.com.br/2014-02-12/se-o-voo-de-flappy-bird-nao-foi-genuino-mudancas-sao-necessarias.html
+- http://arena.ig.com.br/2014-01-07/brasil-marca-presenca-na-premiacao-igf-2014-com-towerfall-ascension.html
+- http://arena.ig.com.br/2012-08-21/bossa-studios-os-brasileiros-por-tras-do-premiado-estudio-de-londres-parte-1.html
+- http://arena.ig.com.br/2014-03-24/riot-e-hbo-se-unem-em-campanha-de-league-of-legends-e-game-of-thrones.html
+- http://arena.ig.com.br/2013-11-19/com-mais-de-32-milhoes-de-espectadores-final-de-league-of-legends-bate-recorde.html
+- http://arena.ig.com.br/2012-07-13/artigo-uma-mulher-uma-causa-nobre-e-um-exercito-de-haters.html
+- http://arena.ig.com.br/2014-01-20/estudo-mostra-que-booth-babes-sao-prejudiciais-ao-sucesso-de-empresas-em-eventos.html
+- http://arena.ig.com.br/2013-01-29/os-melhores-jogos-brasileiros-da-global-game-jam-2013-para-voce-jogar.html
+- http://arena.ig.com.br/2013-09-23/simultaneamente-xbox-one-suporta-ate-quatro-aplicativos-e-seis-usuarios.html
+- http://arena.ig.com.br/2013-08-28/com-corte-de-us-50-versao-deluxe-do-wii-u-passa-a-custar-us-299-em-setembro.html
+- http://arena.ig.com.br/2013-05-17/new-super-luigi-u-sera-lancado-em-versao-digital-e-em-caixa.html
+- http://arena.ig.com.br/2012-09-04/por-que-um-evento-de-games-lgbt-e-importante-para-a-cultura-gamer-como-um-todo.html
+- http://arena.ig.com.br/2012-09-03/artigo-voce-pode-criar-jogos-que-empresas-nao-podem.html
+- http://arena.ig.com.br/2014-02-10/crie-seu-proprio-flappy-bird-com-este-gerador-de-flappy-birds.html
+- http://arena.ig.com.br/2013-04-01/jogo-brasileiro-tribot-ja-disponivel-para-ios-chega-tambem-ao-android.html
+- http://arena.ig.com.br/2012-08-21/bossa-studios-os-brasileiros-por-tras-do-premiado-estudio-de-londres-parte-2.html
+- http://arena.ig.com.br/2013-08-12/american-express-lanca-cartao-de-debito-com-arte-de-league-of-legends.html
+- http://arena.ig.com.br/2013-10-29/time-cnb-vence-desafio-internacional-de-league-of-legends-na-bgs-2013.html
+- http://arena.ig.com.br/2013-05-20/diretor-executivo-da-riot-games-de-league-of-legends-deixa-a-empresa-no-brasil.html
+- http://arena.ig.com.br/2012-04-23/conheca-todos-os-personagens-de-league-of-legends.html
+- http://arena.ig.com.br/2012-06-28/dez-livros-de-games-que-voce-precisa-ler.html
+- http://arena.ig.com.br/2012-10-17/nova-leva-de-jogos-e-aprovada-no-steam-greenlight.html
+- http://arena.ig.com.br/2013-02-21/executivo-da-sony-confirma-presenca-do-playstation-4-na-bgs-2013.html
+- http://arena.ig.com.br/2013-02-21/veja-apresentacao-completa-do-playstation-4.html
+- http://arena.ig.com.br/2013-08-20/sony-corta-preco-do-ps-vita-em-r-120.html
+- http://arena.ig.com.br/2013-06-11/knack-killzone-shadowfall-e-drive-club-estarao-disponiveis-no-lancamento-do-ps4.html
+- http://arena.ig.com.br/2013-08-01/criadores-do-classico-para-pc-outcast-anunciam-novo-estudio.html
+- http://arena.ig.com.br/2013-06-10/killer-instinct-ganha-nova-versao-exclusiva-para-xbox-one.html
+- http://arena.ig.com.br/2013-06-10/microsoft-anuncia-versao-compacta-do-xbox-360.html
+- http://arena.ig.com.br/2013-06-10/xbox-live-abandonara-microsoft-points-e-passara-a-usar-dinheiro-real.html
+- http://arena.ig.com.br/2013-05-28/veja-o-trailer-de-lancamento-de-sonic-lost-world.html
+- http://arena.ig.com.br/2013-07-31/wii-u-vendeu-apenas-160-mil-unidades-nos-ultimos-tres-meses.html
+- http://arena.ig.com.br/2013-03-01/conheca-os-novos-minigames-de-game--wario-para-wii-u.html
+- http://arena.ig.com.br/2013-06-10/knights-of-pen-and-paper-+1-edition-chega-dia-18-de-junho.html
+- http://arena.ig.com.br/2012-10-26/wii-u-oficial-nao-estara-disponivel-no-brasil-antes-de-2013.html
+- http://arena.ig.com.br/2013-02-14/nintendo-prepara-new-super-luigi-u-dlc-para-new-super-mario-bros-u.html
+- http://arena.ig.com.br/2013-05-17/nintendo-anuncia-sonic-lost-world-e-sonic--mario-winter-games.html
+- http://arena.ig.com.br/2013-04-02/rockstar-revela-capa-oficial-de-grand-theft-auto-v.html
+- http://arena.ig.com.br/2012-08-23/jogo-brasileiro-concorre-com-dyad-botanicula-e-outros-no-indiecade.html
+- http://arena.ig.com.br/analises/2012-06-21/indie-game-the-movie.html
+- http://arena.ig.com.br/2013-01-21/atari-inicia-processo-para-declarar-falencia.html
+- http://arena.ig.com.br/2012-11-21/jetpack-joyride-chega-ao-psp-ps-vita-e-ps3-pela-playstation-network.html
+- http://arena.ig.com.br/2012-10-29/conheca-os-finalistas-da-premiacao-do-big-festival-que-acontece-em-sp.html
+- http://arena.ig.com.br/2013-02-21/infamous-second-son-e-novo-jogo-da-serie-para-o-playstation-4.html
+- http://arena.ig.com.br/2012-04-25/jogue-de-graca-jelly-escape-o-novo-jogo-brasileiro-de-plataforma.html
+- http://arena.ig.com.br/2012-11-07/simulador-de-tratores-agricolas-vende-mais-que-medal-of-honor-warfighter.html
+- http://arena.ig.com.br/2012-09-17/anuncio-de-indicacao-de-moacyr-ao-conselho-nacional-de-cultura-foi-precipitado.html
+- http://arena.ig.com.br/2013-06-14/e3-2013-conferencia-da-ea-traz-continuacoes-e-surpresas-inusitadas-assista.html
+- http://arena.ig.com.br/2012-11-27/conheca-os-quatro-jogos-indie-criados-durante-o-festival-big-em-sp.html
+- http://arena.ig.com.br/2013-02-21/negando-rumores-sony-avisa-que-playstation-4-aceitara-jogos-usados.html
+- http://arena.ig.com.br/2012-12-05/jogo-brasileiro-skyrise-runner-chega-de-graca-ao-ios.html
+- http://arena.ig.com.br/2012-08-03/ea-entra-em-acao-contra-a-zynga.html
+- http://arena.ig.com.br/2012-08-15/amc-the-walking-dead-social-game-e-muito-jogo-social-e-pouco-walking-dead.html
+- http://arena.ig.com.br/2012-07-11/segundo-xfire-league-of-legends-e-o-jogo-mais-jogado-no-mundo.html
+- http://arena.ig.com.br/2013-08-29/campeonato-de-league-of-legends-no-ira-proibe-uso-de-personagens-femininas.html
+- http://arena.ig.com.br/2012-04-18/league-of-legends-ganhara-servidor-brasileiro.html
+- http://arena.ig.com.br/2013-04-01/veterana-da-industria-renuncia-ao-igda-apos-festa-com-dancarinas-seminuas-na-gdc.html
+- http://arena.ig.com.br/2013-10-17/arena-discute-preco-de-r-3999-do-playstation-4.html
+- http://arena.ig.com.br/2013-02-21/sony-afirma-estar-em-contato-com-desenvolvedores-brasileiros.html
+- http://arena.ig.com.br/2013-02-21/quase-150-produtoras-ja-trabalham-em-jogos-para-o-playstation-4.html
+- http://arena.ig.com.br/2013-02-21/drive-club-e-novo-jogo-dos-criadores-de-motorstorm-para-playstation-4.html
+- http://arena.ig.com.br/2013-02-21/novo-titulo-da-capcom-deep-down-remete-a-dragons-dogma.html
+- http://arena.ig.com.br/2013-02-21/contrariando-expectativas-blizzard-anuncia-diablo-iii-para-consoles.html
+- http://arena.ig.com.br/2012-06-04/xbox-smartglass-integra-console-mobile-e-internet.html
+- http://arena.ig.com.br/2013-02-21/engine-dos-criadores-de-heavy-rain-para-ps4-tem-recursos-de-filmes-em-cg.html
+- http://arena.ig.com.br/2013-06-10/below-e-jogo-dos-criadores-de-sword--sworcery-para-xbox-one.html
+- http://arena.ig.com.br/analises/2012-04-20/analise-resident-evil-operation-raccoon-city.html
+- http://arena.ig.com.br/2013-02-14/imagem-de-suposto-controle-de-playstation-4-cai-na-internet.html
+- http://arena.ig.com.br/2013-02-18/no-novo-playstation-retrocompatibilidade-sera-via-streaming-diz-jornal.html
+- http://arena.ig.com.br/2013-04-30/conferencia-da-microsoft-na-e3-acontece-em-10-de-junho.html
+- http://arena.ig.com.br/2013-05-21/halo-vai-virar-serie-de-tv-pelas-maos-de-steven-spielberg.html
+- http://arena.ig.com.br/2012-05-07/thq-anuncia-company-of-heroes-2.html
+- http://arena.ig.com.br/2013-03-26/square-enix-anuncia-saida-de-ceo-e-prejuizo-de-r-277-milhoes-para-ano-fiscal.html
+- http://arena.ig.com.br/2013-03-19/presidente-da-ea-renuncia-ao-cargo.html
+- http://esporte.ig.com.br/futebol/2014-10-11/ponte-preta-empata-com-o-santa-cruz-em-casa-mas-mantem-lideranca-da-serie-b.html
+- http://esporte.ig.com.br/futebol/2014-10-11/america-mg-vence-sonha-com-acesso-e-complica-ainda-mais-a-portuguesa.html
+- http://esporte.ig.com.br/futebol/2014-10-11/franca-aproveita-dia-ruim-de-cr7-e-bate-portugal-em-amistoso.html
+- http://esporte.ig.com.br/futebol/2014-10-09/corinthians-vence-no-mineirao-cola-no-g4-e-nao-deixa-o-cruzeiro-escapar.html
+- http://esporte.ig.com.br/futebol/2014-10-08/palmeiras-vence-sua-decisao-respira-e-coloca-botafogo-na-lanterna.html
+- http://esporte.ig.com.br/futebol/2014-10-09/flamengo-bate-figueirense-e-volta-a-abrir-distancia-da-zona-de-rebaixamento.html
+- http://esporte.ig.com.br/futebol/2014-10-09/gremio-bate-o-sport-em-casa-e-seca-o-atletico-mg-para-ficar-no-g4.html
+- http://esporte.ig.com.br/futebol/2014-10-11/goias-vence-jogando-no-erro-do-coritiba-e-aumenta-distancia-da-degola.html
+- http://esporte.ig.com.br/tenis/2012-05-30/simon-leva-susto-mas-supera-brian-baker-em-roland-garros.html
+- http://esporte.ig.com.br/futebol/2012-04-21/real-madrid-bate-barcelona-no-classico-e-esta-a-um-passo-do-titu.html
+- http://esporte.ig.com.br/futebol/2012-06-10/em-duelo-de-forcas-do-grupo-c-italia-e-espanha-ficam-no-empate.html
+- http://esporte.ig.com.br/futebol/2014-10-09/ineficiente-e-com-diego-costa-discreto-espanha-perde-para-a-eslovaquia.html

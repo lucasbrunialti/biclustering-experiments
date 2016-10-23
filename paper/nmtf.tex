@@ -1,0 +1,100 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+\newtheorem{definition}{Definition}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+% \title{	
+% \normalfont \normalsize 
+% \textsc{university, school or department name} \\ [25pt] % Your university, school and/or department name(s)
+% \horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+% \huge Assignment Title \\ % The assignment title
+% \horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+% }
+
+% \author{John Smith} % Your name
+
+% \date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+% \maketitle % Print the title q
+
+\section{Coclustering by Block Value Decomposition}
+
+Seja $X$ uma matriz de dados que representam dados em algum domínio de aplicação, sendo $X \in \mathbb{R^{n \times m}_{+}}$, contendo números reais positivos com $n$ linhas e $m$ colunas. Esta matriz é formada por um conjunto de linhas ${\cal X} = \{ x_{1 \cdot}, \dots, x_{n \cdot} \}$ e um conjunto de colunas ${\cal Y} = \{ y_{\cdot 1}, \dots, y_{\cdot m} \}$.
+
+Um dos primeiros algoritmos propostos na literatura para a resolução do problema de \textit{coclustering} baseado em NMF, é o Decomposição de Valores em Blocos (\textit{Block Value Decomposition} - DVB). Este algoritmo tem o objetivo de clusterizar a matriz de dados $X$ simultâneamente em $k$ clusters de ${\cal X}$ exclusivos e $l$ clusters de ${\cal Y}$.
+
+A idéia do algoritmo é reconstruir a matriz de dados $X$ através de combinações lineares dos centros dos blocos de $X$, similar à alguns tipos de estratégias de \textit{clustering} tradicional, como \textit{k-means}.
+
+\begin{definition}[A resolução do problema de \textit{coclustering} em $X$ é dada pela otimização do problema]
+	\begin{equation*}
+		\begin{aligned}
+		& \underset{U, S, V}{\text{minimizar}}
+		& & \norm{X - USV^T}^{2}_{F} \\
+		& \text{sujeito a}
+		& & U \geq 0, S \geq 0, V \geq 0 \\
+		\end{aligned}
+	\end{equation*}
+\end{definition}
+
+onde $U \in \mathbb{R}^{n \times k}_{+}$, $S \in \mathbb{R}^{k \times l}_{+}$ $\norm{\cdot}$, $V \in \mathbb{R}^{m \times l}$ e $\norm{\dots}$ denota a norma de Frobenius para matrizes.
+
+This is a co-clustering algorithm called Block Value Decomposition (BVD) based on Nonnegative Matrix Factorization (NMF) technique. The goal is to find a factorization for the data matrix $X \in \mathbb{R}_{+}^{N \times M}$, where $N$ is the number of objects, $M$ is the number of features of these objects and the factorization takes the form $$X \approx USV^T$$, where $U \in \mathbb{R}_{+}^{N \times L}$ is a matrix of rows factors representing features clusters, $S \in \mathbb{R}_{+}^{L \times K}$ is a block matrix representing how blocks are related, and $V \in \mathbb{R}_{+}^{M \times K}$ is a matrix of columns factors representing rows clusters.
+
+This algorithm solves the following optimization problem:
+$$\textit{min } ||X - USV^T||^2 \textit{ s.t. } U \geq 0, S \geq 0, V \geq 0$$
+
+The optimization problem can be solved using Lagrange multipliers ($\lambda$), optimizing the following Lagrange function:
+$${\cal L} = |X - USV^T||^2 - tr(\lambda_1U^T) - tr(\lambda_2S^T) - tr(\lambda_3V^T)$$
+
+Then ${\cal L}$ must satisfy the K.K.T. conditions:
+$$\frac{\partial {\cal L}}{\partial U} = 0$$
+$$\frac{\partial {\cal L}}{\partial S} = 0$$
+$$\frac{\partial {\cal L}}{\partial V} = 0$$
+$$\lambda_1 \odot U = 0$$
+$$\lambda_2 \odot S = 0$$
+$$\lambda_3 \odot V = 0$$
+
+Solving the derivatives and equal them to $0$, is possible to solve the optimization problem by applying gradient ascending on ${\cal L}$ with the following update rules:
+$$U \gets U \odot \frac{XVS^T}{USV^TVS^T}$$
+$$V \gets V \odot \frac{U^TXV}{U^TUSV^TV}$$
+$$S \gets S \odot \frac{S^TU^TX}{S^TU^TUSV^T}$$
+
+
+\end{document}

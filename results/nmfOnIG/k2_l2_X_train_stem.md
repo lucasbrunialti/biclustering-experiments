@@ -1,0 +1,241 @@
+Run Params: k2 l2 X_train_stem
+======================
+
+## Scores
+
+#### Rows scores
+- Rand score: 0.407006323134
+- Normalized mutual information score: 0.45535703652
+
+## 0 articles cluster:
+
+#### Term cluster 0 with probability 0.966492
+---------------
+- term: jog, prob: 0.025623
+- term: gam, prob: 0.010729
+- term: brasil, prob: 0.007779
+- term: gent, prob: 0.004535
+- term: ano, prob: 0.003843
+- term: pesso, prob: 0.003765
+- term: alv, prob: 0.003495
+- term: cult, prob: 0.003422
+- term: trabalh, prob: 0.003378
+- term: vai, prob: 0.002994
+- term: dia, prob: 0.002851
+- term: precis, prob: 0.002833
+- term: soc, prob: 0.002830
+- term: cas, prob: 0.002820
+- term: desenvolv, prob: 0.002743
+- term: towerfall, prob: 0.002739
+- term: cont, prob: 0.002648
+- term: fic, prob: 0.002634
+- term: nov, prob: 0.002612
+- term: amor, prob: 0.002565
+- term: ent, prob: 0.002549
+- term: cri, prob: 0.002549
+- term: melhor, prob: 0.002512
+- term: of, prob: 0.002510
+- term: apen, prob: 0.002422
+- term: part, prob: 0.002384
+- term: the, prob: 0.002328
+- term: começ, prob: 0.002303
+- term: acontec, prob: 0.002284
+- term: videogam, prob: 0.002284
+
+#### Term cluster 1 with probability 0.033508
+---------------
+- term: gol, prob: 0.007753
+- term: minut, prob: 0.005696
+- term: marc, prob: 0.005350
+- term: bol, prob: 0.004030
+- term: tim, prob: 0.003498
+- term: cruz, prob: 0.003019
+- term: segund, prob: 0.002755
+- term: part, prob: 0.002690
+- term: temp, prob: 0.002561
+- term: técn, prob: 0.002544
+- term: equip, prob: 0.002484
+- term: pont, prob: 0.002434
+- term: pass, prob: 0.002316
+- term: chanc, prob: 0.002242
+- term: espanh, prob: 0.002092
+- term: defês, prob: 0.001933
+- term: tent, prob: 0.001933
+- term: barcel, prob: 0.001919
+- term: espanhol, prob: 0.001918
+- term: paul, prob: 0.001910
+- term: áre, prob: 0.001833
+- term: camp, prob: 0.001798
+- term: final, prob: 0.001795
+- term: chut, prob: 0.001718
+- term: atac, prob: 0.001710
+- term: cheg, prob: 0.001700
+- term: fez, prob: 0.001695
+- term: ataqu, prob: 0.001602
+- term: campeonat, prob: 0.001585
+- term: esquerd, prob: 0.001569
+
+
+## 1 articles cluster:
+
+#### Term cluster 1 with probability 0.825326
+---------------
+- term: gol, prob: 0.007753
+- term: minut, prob: 0.005696
+- term: marc, prob: 0.005350
+- term: bol, prob: 0.004030
+- term: tim, prob: 0.003498
+- term: cruz, prob: 0.003019
+- term: segund, prob: 0.002755
+- term: part, prob: 0.002690
+- term: temp, prob: 0.002561
+- term: técn, prob: 0.002544
+- term: equip, prob: 0.002484
+- term: pont, prob: 0.002434
+- term: pass, prob: 0.002316
+- term: chanc, prob: 0.002242
+- term: espanh, prob: 0.002092
+- term: defês, prob: 0.001933
+- term: tent, prob: 0.001933
+- term: barcel, prob: 0.001919
+- term: espanhol, prob: 0.001918
+- term: paul, prob: 0.001910
+- term: áre, prob: 0.001833
+- term: camp, prob: 0.001798
+- term: final, prob: 0.001795
+- term: chut, prob: 0.001718
+- term: atac, prob: 0.001710
+- term: cheg, prob: 0.001700
+- term: fez, prob: 0.001695
+- term: ataqu, prob: 0.001602
+- term: campeonat, prob: 0.001585
+- term: esquerd, prob: 0.001569
+
+#### Term cluster 0 with probability 0.174674
+---------------
+- term: jog, prob: 0.025623
+- term: gam, prob: 0.010729
+- term: brasil, prob: 0.007779
+- term: gent, prob: 0.004535
+- term: ano, prob: 0.003843
+- term: pesso, prob: 0.003765
+- term: alv, prob: 0.003495
+- term: cult, prob: 0.003422
+- term: trabalh, prob: 0.003378
+- term: vai, prob: 0.002994
+- term: dia, prob: 0.002851
+- term: precis, prob: 0.002833
+- term: soc, prob: 0.002830
+- term: cas, prob: 0.002820
+- term: desenvolv, prob: 0.002743
+- term: towerfall, prob: 0.002739
+- term: cont, prob: 0.002648
+- term: fic, prob: 0.002634
+- term: nov, prob: 0.002612
+- term: amor, prob: 0.002565
+- term: ent, prob: 0.002549
+- term: cri, prob: 0.002549
+- term: melhor, prob: 0.002512
+- term: of, prob: 0.002510
+- term: apen, prob: 0.002422
+- term: part, prob: 0.002384
+- term: the, prob: 0.002328
+- term: começ, prob: 0.002303
+- term: acontec, prob: 0.002284
+- term: videogam, prob: 0.002284
+
+
+## Mistakes
+- http://esporte.ig.com.br/futebol/2014-10-11/jo-nao-aparece-para-treinar-e-vira-desfalque-no-atletico-mg.html
+- http://esporte.ig.com.br/futebol/2014-10-11/damiao-admite-ano-ruim-vou-me-entregar-ao-maximo-para-melhorar.html
+- http://esporte.ig.com.br/futebol/2014-10-11/apesar-do-ebola-copa-africana-de-nacoes-de-futebol-segue-sem-mudancas.html
+- http://esporte.ig.com.br/maisesportes/rugbi/2014-10-11/partida-decisiva-de-rugbi-tem-agressao-covarde-assista-ao-video.html
+- http://esporte.ig.com.br/basquete/2014-10-11/rio-volta-a-receber-a-nba-e-fas-formam-filas-para-comprar-produtos-da-liga.html
+- http://esporte.ig.com.br/futebol/2012-06-20/drogba-assina-com-time-chines-e-reencontrara-anelka.html
+- http://esporte.ig.com.br/futebol/2012-05-24/para-rodrigo-caetano-libertadores-e-um-sonho-adiado-no-flu.html
+- http://esporte.ig.com.br/futebol/2012-05-31/lesao-muscular-tira-o-ingles-frank-lampard-da-euro-2012.html
+- http://esporte.ig.com.br/lutas/2012-07-19/mutante-comemora-elogios-de-chefe-do-ufc-e-sonha-em-lutar-ao-lado-de-belfort.html
+- http://esporte.ig.com.br/basquete/2014-10-10/genio-do-basquete-tecnico-conquista-elenco-do-cavaliers-com-ideias-proprias.html
+- http://esporte.ig.com.br/futebol/2012-07-04/zagueiro-breno-e-condenado-a-3-anos-e-9-meses-de-prisao-na-alemanha.html
+- http://esporte.ig.com.br/futebol/2012-12-20/breno-e-registrado-no-bid-e-aguarda-justica-para-defender-sao-paulo.html
+- http://esporte.ig.com.br/basquete/2014-10-10/apos-ano-ausente-ala-do-heat-diz-nunca-ter-duvidado-de-nova-chance-na-nba.html
+- http://esporte.ig.com.br/basquete/2014-10-08/jovens-de-favela-no-rio-tem-aula-inesquecivel-de-basquete-com-campeao-da-nba.html
+- http://esporte.ig.com.br/futebol/2014-09-30/apos-reuniao-com-cbf-arbitros-descartam-greve-no-brasileirao.html
+- http://esporte.ig.com.br/futebol/2012-04-23/leao-reclama-de-arbitros-superstars-e-exalta-jogadores-marrentos.html
+- http://esporte.ig.com.br/futebol/2012-06-28/para-esposa-breno-estava-possuido-pelo-satanas-no-dia-do-incendio.html
+- http://esporte.ig.com.br/futebol/2012-07-03/acusado-de-incendiar-sua-casa-breno-tomava-uma-garrafa-de-whisky-por-dia.html
+- http://esporte.ig.com.br/futebol/2013-08-19/breno-deixa-a-prisao-volta-ao-bayern-e-se-considera-uma-pessoa-diferente.html
+- http://esporte.ig.com.br/basquete/2014-10-09/garoto-de-11-anos-ganha-autografo-de-lebron-e-promete-nunca-mais-lavar-a-camisa.html
+- http://esporte.ig.com.br/futebol/2012-06-13/em-julgamento-breno-mantem-silencio-sobre-incendio-na-propria-casa.html
+- http://esporte.ig.com.br/futebol/2014-09-26/chefe-de-arbitragem-da-cbf-rechaca-profissionalizacao-e-critica-tecnologia.html
+- http://esporte.ig.com.br/futebol/2012-06-13/comeca-na-alemanha-julgamento-de-breno-por-incendio-em-sua-casa.html
+- http://esporte.ig.com.br/automobilismo/2014-03-19/aos-83-anos-ecclestone-admite-que-pensa-em-aposentadoria.html
+- http://esporte.ig.com.br/lutas/2012-09-05/anderson-silva-diz-que-ha-boiolas-no-ufc-e-que-usava-vestido-na-infancia.html
+- http://esporte.ig.com.br/lutas/2012-09-05/ufc-lanca-trailer-da-luta-entre-vitor-belfort-e-jon-jones-assista.html
+- http://esporte.ig.com.br/lutas/2012-09-04/arianny-celeste-ring-girl-do-ufc-insiste-em-querer-alavancar-carreira-musical.html
+- http://esporte.ig.com.br/lutas/2012-08-31/rival-de-aldo-se-machuca-e-edgar-sera-o-adversario-do-brasileiro-no-ufc-rio-3.html
+- http://esporte.ig.com.br/lutas/2012-08-25/jon-jones-encara-belfort-com-favoritismo-historico-nas-casas-de-apostas.html
+- http://esporte.ig.com.br/futebol/2012-05-30/dalessandro-e-destaque-na-fifa-e-ve-neymar-na-trilha-de-messi.html
+- http://esporte.ig.com.br/futebol/2012-04-19/na-tv-luis-fabiano-tira-duvida-sobre-sexo-antes-dos-jogos-e-se-a.html
+- http://esporte.ig.com.br/futebol/2012-05-26/beckham-aceita-reducao-no-salario-e-renova-contrato-com-o-galaxy.html
+- http://esporte.ig.com.br/futebol/2012-05-15/milan-desmente-problemas-entre-ibrahimovic-e-allegri.html
+- http://esporte.ig.com.br/tenis/2012-05-30/apos-vitoria-del-potro-mostra-incomodo-com-lesao-no-joelho.html
+- http://esporte.ig.com.br/futebol/2012-06-20/anuncio-feito-por-rooney-no-twitter-e-banido-por-reguladores-britanicos.html
+- http://esporte.ig.com.br/futebol/2012-06-13/qual-o-jogador-mais-feio-da-euro-2012-confira-os-candidatos-e-vote-na-enquete.html
+
+## Undecided news:
+- http://arena.ig.com.br/2013-11-19/com-mais-de-32-milhoes-de-espectadores-final-de-league-of-legends-bate-recorde.html
+- http://arena.ig.com.br/2013-10-29/time-cnb-vence-desafio-internacional-de-league-of-legends-na-bgs-2013.html
+- http://arena.ig.com.br/2013-06-10/xbox-live-abandonara-microsoft-points-e-passara-a-usar-dinheiro-real.html
+- http://arena.ig.com.br/2013-02-21/engine-dos-criadores-de-heavy-rain-para-ps4-tem-recursos-de-filmes-em-cg.html
+- http://esporte.ig.com.br/futebol/2014-10-11/jo-nao-aparece-para-treinar-e-vira-desfalque-no-atletico-mg.html
+- http://esporte.ig.com.br/futebol/2014-10-11/damiao-admite-ano-ruim-vou-me-entregar-ao-maximo-para-melhorar.html
+- http://esporte.ig.com.br/maisesportes/vela/2014-10-11/com-festa-sete-barcos-partem-em-direcao-a-cidade-do-cabo-na-largada-da-volvo.html
+- http://esporte.ig.com.br/maisesportes/rugbi/2014-10-11/partida-decisiva-de-rugbi-tem-agressao-covarde-assista-ao-video.html
+- http://esporte.ig.com.br/futebol/2012-06-20/drogba-assina-com-time-chines-e-reencontrara-anelka.html
+- http://esporte.ig.com.br/futebol/2012-04-20/corinthians-vai-alem-das-provocacoes-e-usa-bambi-no-papel-de-lea.html
+- http://esporte.ig.com.br/futebol/2012-05-24/para-rodrigo-caetano-libertadores-e-um-sonho-adiado-no-flu.html
+- http://esporte.ig.com.br/futebol/2012-05-31/lesao-muscular-tira-o-ingles-frank-lampard-da-euro-2012.html
+- http://esporte.ig.com.br/tenis/2012-05-30/simon-leva-susto-mas-supera-brian-baker-em-roland-garros.html
+- http://esporte.ig.com.br/lutas/2012-07-19/rival-de-renan-barao-esbanja-confianca-e-avisa-ele-nao-e-o-jose-aldo.html
+- http://esporte.ig.com.br/lutas/2012-07-19/mutante-comemora-elogios-de-chefe-do-ufc-e-sonha-em-lutar-ao-lado-de-belfort.html
+- http://esporte.ig.com.br/futebol/2014-10-08/exame-confirma-lesao-no-joelho-de-ozil-que-so-retorna-aos-gramados-em-2015.html
+- http://esporte.ig.com.br/basquete/2014-10-10/fa-do-cavaliers-viajou-de-joao-pessoa-e-gastou-r-6-mil-para-ver-o-time-no-rio.html
+- http://esporte.ig.com.br/basquete/2014-10-10/genio-do-basquete-tecnico-conquista-elenco-do-cavaliers-com-ideias-proprias.html
+- http://esporte.ig.com.br/futebol/2012-12-20/breno-e-registrado-no-bid-e-aguarda-justica-para-defender-sao-paulo.html
+- http://esporte.ig.com.br/basquete/2014-10-08/jovens-de-favela-no-rio-tem-aula-inesquecivel-de-basquete-com-campeao-da-nba.html
+- http://esporte.ig.com.br/basquete/2014-10-09/elogiado-por-lebron-novato-do-miami-nega-frustracao-por-nao-jogar-com-ele.html
+- http://esporte.ig.com.br/futebol/2014-09-30/apos-reuniao-com-cbf-arbitros-descartam-greve-no-brasileirao.html
+- http://esporte.ig.com.br/futebol/2012-06-28/para-esposa-breno-estava-possuido-pelo-satanas-no-dia-do-incendio.html
+- http://esporte.ig.com.br/futebol/2013-08-19/breno-deixa-a-prisao-volta-ao-bayern-e-se-considera-uma-pessoa-diferente.html
+- http://esporte.ig.com.br/basquete/2014-10-09/garoto-de-11-anos-ganha-autografo-de-lebron-e-promete-nunca-mais-lavar-a-camisa.html
+- http://esporte.ig.com.br/futebol/2014-09-26/arbitros-se-rebelam-contra-criticas-e-ameacam-parar-brasileirao.html
+- http://esporte.ig.com.br/futebol/2012-06-13/em-julgamento-breno-mantem-silencio-sobre-incendio-na-propria-casa.html
+- http://esporte.ig.com.br/futebol/2014-09-26/chefe-de-arbitragem-da-cbf-rechaca-profissionalizacao-e-critica-tecnologia.html
+- http://esporte.ig.com.br/futebol/2012-04-24/ribery-afirma-que-duelo-contra-o-real-madrid-sera-o-jogo-da-sua.html
+- http://esporte.ig.com.br/lutas/2012-09-05/anderson-silva-diz-que-ha-boiolas-no-ufc-e-que-usava-vestido-na-infancia.html
+- http://esporte.ig.com.br/lutas/2012-09-05/ufc-lanca-trailer-da-luta-entre-vitor-belfort-e-jon-jones-assista.html
+- http://esporte.ig.com.br/lutas/2012-08-31/campeao-interino-do-ufc-barao-liga-alerta-contra-malandragem-de-rival.html
+- http://esporte.ig.com.br/lutas/2012-09-04/arianny-celeste-ring-girl-do-ufc-insiste-em-querer-alavancar-carreira-musical.html
+- http://esporte.ig.com.br/lutas/2012-08-31/rival-de-aldo-se-machuca-e-edgar-sera-o-adversario-do-brasileiro-no-ufc-rio-3.html
+- http://esporte.ig.com.br/futebol/2012-05-04/torcida-do-real-madrid-quer-que-diretoria-venda-kaka-aponta-enqu.html
+- http://esporte.ig.com.br/lutas/2012-08-25/jon-jones-encara-belfort-com-favoritismo-historico-nas-casas-de-apostas.html
+- http://esporte.ig.com.br/lutas/2012-08-27/chael-sonnen-esquece-rusga-e-declara-torcida-por-belfort-contra-jon-jones.html
+- http://esporte.ig.com.br/futebol/2012-05-30/dalessandro-e-destaque-na-fifa-e-ve-neymar-na-trilha-de-messi.html
+- http://esporte.ig.com.br/futebol/2012-04-19/na-tv-luis-fabiano-tira-duvida-sobre-sexo-antes-dos-jogos-e-se-a.html
+- http://esporte.ig.com.br/futebol/2012-05-31/campeonato-ingles-e-o-que-gera-mais-receitas-na-europa-aponta-es.html
+- http://esporte.ig.com.br/futebol/2012-05-20/apos-titulo-capitao-terry-pede-permanencia-de-di-matteo-no-chels.html
+- http://esporte.ig.com.br/futebol/2012-07-01/depois-de-empate-na-estreia-espanha-e-italia-se-reencontram-na-final-da-euro.html
+- http://esporte.ig.com.br/futebol/2012-05-15/city-e-tevez-se-desculpam-por-cartaz-que-ridicularizava-ferguson.html
+- http://esporte.ig.com.br/futebol/2012-05-26/beckham-aceita-reducao-no-salario-e-renova-contrato-com-o-galaxy.html
+- http://esporte.ig.com.br/futebol/2012-05-15/milan-desmente-problemas-entre-ibrahimovic-e-allegri.html
+- http://esporte.ig.com.br/futebol/2012-05-22/com-time-conhecido-casillas-preve-euro-dificil-para-a-espanha.html
+- http://esporte.ig.com.br/futebol/2012-04-23/lahm-diz-que-briga-entre-robben-e-ribery-ja-foi-superada.html
+- http://esporte.ig.com.br/futebol/2012-04-23/cristiano-ronaldo-espera-muito-respeito-do-bayern-no-duelo-de-qu.html
+- http://esporte.ig.com.br/futebol/2012-06-13/alemanha-tenta-eliminar-holanda-e-antecipar-classificacao-as-oitavas.html
+- http://esporte.ig.com.br/futebol/2014-09-26/corpo-mole-de-rivais-pode-ajudar-a-rebaixar-palmeiras-e-botafogo.html
+- http://esporte.ig.com.br/futebol/2012-06-19/ativistas-do-femen-assustam-torcida-sueca-na-ucrania.html
+- http://esporte.ig.com.br/futebol/2012-06-20/anuncio-feito-por-rooney-no-twitter-e-banido-por-reguladores-britanicos.html
+- http://esporte.ig.com.br/futebol/2012-06-04/qual-selecao-tem-as-camisas-mais-bonitas-da-euro-2012-veja-e-vote.html
+- http://esporte.ig.com.br/futebol/2012-05-25/guardiola-avisa-que-espera-ser-seduzido-para-acertar-com-novo-cl.html
+- http://esporte.ig.com.br/futebol/2012-04-28/era-guardiola-vira-fenomeno-pop-com-idolatria-frases-de-efeito-e.html

@@ -1,0 +1,321 @@
+Run Params: k2 l6 X_train_tfidf_stem
+======================
+
+## Scores
+
+#### Rows scores
+- Rand score: 0.738289606856
+- Normalized mutual information score: 0.642593100895
+
+## 0 articles cluster:
+
+#### Term cluster 2 with probability 0.425870
+---------------
+- term: gol, prob: 0.004684
+- term: flappy, prob: 0.003299
+- term: minut, prob: 0.003186
+- term: marc, prob: 0.002648
+- term: bird, prob: 0.002479
+- term: cruz, prob: 0.002125
+- term: itál, prob: 0.002000
+- term: chanc, prob: 0.001924
+- term: chut, prob: 0.001695
+- term: camp, prob: 0.001635
+- term: temp, prob: 0.001602
+- term: botafog, prob: 0.001553
+- term: mess, prob: 0.001510
+- term: atac, prob: 0.001468
+- term: flameng, prob: 0.001390
+- term: técn, prob: 0.001385
+- term: tim, prob: 0.001381
+- term: campeonat, prob: 0.001347
+- term: pont, prob: 0.001338
+- term: atlé, prob: 0.001325
+- term: bilba, prob: 0.001320
+- term: paul, prob: 0.001274
+- term: figueir, prob: 0.001259
+- term: madr, prob: 0.001207
+- term: grêmi, prob: 0.001196
+- term: espanh, prob: 0.001174
+- term: app, prob: 0.001170
+- term: nguyen, prob: 0.001123
+- term: ataqu, prob: 0.001084
+- term: vitór, prob: 0.001054
+
+#### Term cluster 0 with probability 0.340558
+---------------
+- term: bol, prob: 0.003477
+- term: gol, prob: 0.002319
+- term: minut, prob: 0.002257
+- term: defês, prob: 0.001829
+- term: espanh, prob: 0.001541
+- term: marc, prob: 0.001387
+- term: equip, prob: 0.001364
+- term: barcel, prob: 0.001287
+- term: segund, prob: 0.001235
+- term: tim, prob: 0.001222
+- term: cruz, prob: 0.001204
+- term: part, prob: 0.001193
+- term: espanhol, prob: 0.001142
+- term: dua, prob: 0.001085
+- term: tent, prob: 0.001074
+- term: árbitr, prob: 0.001038
+- term: técn, prob: 0.001002
+- term: pont, prob: 0.000984
+- term: rei, prob: 0.000974
+- term: real, prob: 0.000945
+- term: casill, prob: 0.000871
+- term: guardiol, prob: 0.000835
+- term: ataqu, prob: 0.000830
+- term: campeã, prob: 0.000821
+- term: palm, prob: 0.000809
+- term: áre, prob: 0.000803
+- term: torc, prob: 0.000771
+- term: atlé, prob: 0.000769
+- term: desperdiç, prob: 0.000768
+- term: doi, prob: 0.000764
+
+#### Term cluster 1 with probability 0.215066
+---------------
+- term: jog, prob: 0.006491
+- term: brasil, prob: 0.002177
+- term: ano, prob: 0.001789
+- term: áre, prob: 0.001776
+- term: gam, prob: 0.001700
+- term: começ, prob: 0.001699
+- term: soc, prob: 0.001485
+- term: cri, prob: 0.001479
+- term: fic, prob: 0.001472
+- term: livr, prob: 0.001385
+- term: doi, prob: 0.001350
+- term: pass, prob: 0.001292
+- term: cont, prob: 0.001271
+- term: car, prob: 0.001269
+- term: hor, prob: 0.001260
+- term: dia, prob: 0.001232
+- term: bem, prob: 0.001193
+- term: entr, prob: 0.001175
+- term: pedr, prob: 0.001146
+- term: lanç, prob: 0.001124
+- term: vai, prob: 0.001119
+- term: públic, prob: 0.001104
+- term: acab, prob: 0.001086
+- term: desenvolv, prob: 0.001081
+- term: mai, prob: 0.001078
+- term: final, prob: 0.001047
+- term: part, prob: 0.001047
+- term: mei, prob: 0.001043
+- term: melhor, prob: 0.001026
+- term: design, prob: 0.001016
+
+
+## 1 articles cluster:
+
+#### Term cluster 4 with probability 0.385943
+---------------
+- term: gent, prob: 0.004051
+- term: towerfall, prob: 0.003894
+- term: amor, prob: 0.001995
+- term: gam, prob: 0.001994
+- term: matt, prob: 0.001925
+- term: conselh, prob: 0.001490
+- term: trabalh, prob: 0.001290
+- term: pesso, prob: 0.001266
+- term: brasil, prob: 0.001240
+- term: cult, prob: 0.001137
+- term: alv, prob: 0.001053
+- term: ent, prob: 0.000944
+- term: govern, prob: 0.000934
+- term: vai, prob: 0.000896
+- term: quer, prob: 0.000894
+- term: aqu, prob: 0.000881
+- term: person, prob: 0.000857
+- term: minibos, prob: 0.000806
+- term: plan, prob: 0.000796
+- term: minist, prob: 0.000789
+- term: menin, prob: 0.000734
+- term: pessoal, prob: 0.000733
+- term: jam, prob: 0.000714
+- term: pedr, prob: 0.000694
+- term: quest, prob: 0.000693
+- term: pra, prob: 0.000683
+- term: aprend, prob: 0.000640
+- term: the, prob: 0.000631
+- term: ide, prob: 0.000630
+- term: carg, prob: 0.000581
+
+#### Term cluster 3 with probability 0.289347
+---------------
+- term: amor, prob: 0.001942
+- term: alv, prob: 0.001473
+- term: impost, prob: 0.001371
+- term: cult, prob: 0.001187
+- term: gam, prob: 0.001161
+- term: ent, prob: 0.000993
+- term: minist, prob: 0.000935
+- term: pra, prob: 0.000875
+- term: indic, prob: 0.000846
+- term: aqu, prob: 0.000838
+- term: matt, prob: 0.000813
+- term: fal, prob: 0.000800
+- term: jam, prob: 0.000771
+- term: trabalh, prob: 0.000769
+- term: pessoal, prob: 0.000711
+- term: consum, prob: 0.000600
+- term: amig, prob: 0.000598
+- term: towerfall, prob: 0.000597
+- term: ia, prob: 0.000585
+- term: pedr, prob: 0.000575
+- term: ascension, prob: 0.000557
+- term: comit, prob: 0.000557
+- term: canad, prob: 0.000555
+- term: quest, prob: 0.000537
+- term: moacyr, prob: 0.000529
+- term: explic, prob: 0.000525
+- term: tip, prob: 0.000486
+- term: gost, prob: 0.000459
+- term: event, prob: 0.000444
+- term: pirat, prob: 0.000433
+
+#### Term cluster 1 with probability 0.265367
+---------------
+- term: jog, prob: 0.006491
+- term: brasil, prob: 0.002177
+- term: ano, prob: 0.001789
+- term: áre, prob: 0.001776
+- term: gam, prob: 0.001700
+- term: começ, prob: 0.001699
+- term: soc, prob: 0.001485
+- term: cri, prob: 0.001479
+- term: fic, prob: 0.001472
+- term: livr, prob: 0.001385
+- term: doi, prob: 0.001350
+- term: pass, prob: 0.001292
+- term: cont, prob: 0.001271
+- term: car, prob: 0.001269
+- term: hor, prob: 0.001260
+- term: dia, prob: 0.001232
+- term: bem, prob: 0.001193
+- term: entr, prob: 0.001175
+- term: pedr, prob: 0.001146
+- term: lanç, prob: 0.001124
+- term: vai, prob: 0.001119
+- term: públic, prob: 0.001104
+- term: acab, prob: 0.001086
+- term: desenvolv, prob: 0.001081
+- term: mai, prob: 0.001078
+- term: final, prob: 0.001047
+- term: part, prob: 0.001047
+- term: mei, prob: 0.001043
+- term: melhor, prob: 0.001026
+- term: design, prob: 0.001016
+
+
+## Mistakes
+- http://arena.ig.com.br/2014-09-25/avaliacao-do-fifa-15-por-um-jogador-fanatico.html
+- http://arena.ig.com.br/2014-02-12/se-o-voo-de-flappy-bird-nao-foi-genuino-mudancas-sao-necessarias.html
+- http://arena.ig.com.br/2013-11-19/com-mais-de-32-milhoes-de-espectadores-final-de-league-of-legends-bate-recorde.html
+- http://arena.ig.com.br/2014-02-10/crie-seu-proprio-flappy-bird-com-este-gerador-de-flappy-birds.html
+- http://arena.ig.com.br/2013-10-29/time-cnb-vence-desafio-internacional-de-league-of-legends-na-bgs-2013.html
+- http://arena.ig.com.br/2013-06-10/killer-instinct-ganha-nova-versao-exclusiva-para-xbox-one.html
+- http://arena.ig.com.br/2012-11-21/jetpack-joyride-chega-ao-psp-ps-vita-e-ps3-pela-playstation-network.html
+- http://arena.ig.com.br/2013-02-21/engine-dos-criadores-de-heavy-rain-para-ps4-tem-recursos-de-filmes-em-cg.html
+- http://arena.ig.com.br/2012-05-07/thq-anuncia-company-of-heroes-2.html
+- http://arena.ig.com.br/2013-03-26/square-enix-anuncia-saida-de-ceo-e-prejuizo-de-r-277-milhoes-para-ano-fiscal.html
+- http://esporte.ig.com.br/futebol/2014-10-11/apesar-do-ebola-copa-africana-de-nacoes-de-futebol-segue-sem-mudancas.html
+- http://esporte.ig.com.br/futebol/2014-09-30/apos-reuniao-com-cbf-arbitros-descartam-greve-no-brasileirao.html
+- http://esporte.ig.com.br/automobilismo/2014-03-19/aos-83-anos-ecclestone-admite-que-pensa-em-aposentadoria.html
+- http://esporte.ig.com.br/lutas/2012-09-05/anderson-silva-diz-que-ha-boiolas-no-ufc-e-que-usava-vestido-na-infancia.html
+
+## Undecided news:
+- http://arena.ig.com.br/2014-10-09/os-campeonatos-da-brasil-game-show.html
+- http://arena.ig.com.br/2014-09-09/conheca-o-jogo-usado-para-lancar-o-iphone-6.html
+- http://arena.ig.com.br/2014-09-25/avaliacao-do-fifa-15-por-um-jogador-fanatico.html
+- http://arena.ig.com.br/2014-09-11/paul-mccartney-escreveu-musica-para-destiny-sem-interesses-financeiros.html
+- http://arena.ig.com.br/especiais/infograficos/2014-06-06/infografico-historia-evolucao-dos-controles-joystick-gamepad.html
+- http://arena.ig.com.br/2012-07-24/festival-big-trara-co-fundador-da-bungie-a-sp-veja-novidades.html
+- http://arena.ig.com.br/2013-05-24/aprovado-no-greenlight-contrast-chega-para-pc-xbla-e-psn-ainda-este-ano.html
+- http://arena.ig.com.br/2013-02-21/jogos-da-psn-comprados-no-ps3-nao-poderao-ser-transferidos-para-o-ps4.html
+- http://arena.ig.com.br/2014-01-03/top-10-jogos-do-corraini-em-2013.html
+- http://arena.ig.com.br/jogos/videogames/2013-11-13/playstation-4-as-vantagens-da-playstation-network-e-ps-plus.html
+- http://arena.ig.com.br/jogos/videogames/2013-11-13/xbox-one-os-acessorios-do-xbox-one.html
+- http://arena.ig.com.br/jogos/videogames/2013-11-13/xbox-one-entenda-a-live-do-one.html
+- http://arena.ig.com.br/jogos/videogames/2012-12-13/wii-u-a-evolucao-do-wii-na-era-dos-tablets-e-smartphones.html
+- http://arena.ig.com.br/jogos/videogames/2012-12-13/wii-u-jogos-para-todos-os-gostos-e-bolsos.html
+- http://arena.ig.com.br/jogos/videogames/2012-12-13/wii-u-entenda-o-miiverse-a-nintendo-network-e-os-principais-recursos-online.html
+- http://arena.ig.com.br/2013-12-30/top-10-jogos-do-rique-de-2013.html
+- http://arena.ig.com.br/2013-12-27/top-10-jogos-do-teixeira-em-2013.html
+- http://arena.ig.com.br/2013-12-24/top-10-jogos-do-heitor-em-2013.html
+- http://arena.ig.com.br/2013-09-05/xbox-one-pode-vir-a-ter-retro-compatibilidade-atraves-da-nuvem.html
+- http://arena.ig.com.br/2013-06-11/playstation-plus-sera-necessaria-para-multiplayer-no-ps4.html
+- http://arena.ig.com.br/2012-12-03/papo--yo-unmechanical-e-out-there-somewhere-foram-grandes-vencedores-do-big.html
+- http://arena.ig.com.br/2012-08-21/bossa-studios-os-brasileiros-por-tras-do-premiado-estudio-de-londres-parte-1.html
+- http://arena.ig.com.br/2014-03-24/riot-e-hbo-se-unem-em-campanha-de-league-of-legends-e-game-of-thrones.html
+- http://arena.ig.com.br/2013-11-19/com-mais-de-32-milhoes-de-espectadores-final-de-league-of-legends-bate-recorde.html
+- http://arena.ig.com.br/2014-01-20/estudo-mostra-que-booth-babes-sao-prejudiciais-ao-sucesso-de-empresas-em-eventos.html
+- http://arena.ig.com.br/2013-01-29/os-melhores-jogos-brasileiros-da-global-game-jam-2013-para-voce-jogar.html
+- http://arena.ig.com.br/2013-09-23/simultaneamente-xbox-one-suporta-ate-quatro-aplicativos-e-seis-usuarios.html
+- http://arena.ig.com.br/2013-08-28/com-corte-de-us-50-versao-deluxe-do-wii-u-passa-a-custar-us-299-em-setembro.html
+- http://arena.ig.com.br/2013-05-17/new-super-luigi-u-sera-lancado-em-versao-digital-e-em-caixa.html
+- http://arena.ig.com.br/2012-09-03/artigo-voce-pode-criar-jogos-que-empresas-nao-podem.html
+- http://arena.ig.com.br/2013-04-01/jogo-brasileiro-tribot-ja-disponivel-para-ios-chega-tambem-ao-android.html
+- http://arena.ig.com.br/2012-08-21/bossa-studios-os-brasileiros-por-tras-do-premiado-estudio-de-londres-parte-2.html
+- http://arena.ig.com.br/2013-08-12/american-express-lanca-cartao-de-debito-com-arte-de-league-of-legends.html
+- http://arena.ig.com.br/2013-10-29/time-cnb-vence-desafio-internacional-de-league-of-legends-na-bgs-2013.html
+- http://arena.ig.com.br/2013-05-20/diretor-executivo-da-riot-games-de-league-of-legends-deixa-a-empresa-no-brasil.html
+- http://arena.ig.com.br/2012-04-23/conheca-todos-os-personagens-de-league-of-legends.html
+- http://arena.ig.com.br/2012-10-17/nova-leva-de-jogos-e-aprovada-no-steam-greenlight.html
+- http://arena.ig.com.br/2013-02-21/veja-apresentacao-completa-do-playstation-4.html
+- http://arena.ig.com.br/2013-08-20/sony-corta-preco-do-ps-vita-em-r-120.html
+- http://arena.ig.com.br/2013-06-11/knack-killzone-shadowfall-e-drive-club-estarao-disponiveis-no-lancamento-do-ps4.html
+- http://arena.ig.com.br/2013-08-01/criadores-do-classico-para-pc-outcast-anunciam-novo-estudio.html
+- http://arena.ig.com.br/2013-06-10/killer-instinct-ganha-nova-versao-exclusiva-para-xbox-one.html
+- http://arena.ig.com.br/2013-06-10/microsoft-anuncia-versao-compacta-do-xbox-360.html
+- http://arena.ig.com.br/2013-06-10/xbox-live-abandonara-microsoft-points-e-passara-a-usar-dinheiro-real.html
+- http://arena.ig.com.br/2013-05-28/veja-o-trailer-de-lancamento-de-sonic-lost-world.html
+- http://arena.ig.com.br/2013-07-31/wii-u-vendeu-apenas-160-mil-unidades-nos-ultimos-tres-meses.html
+- http://arena.ig.com.br/2013-03-01/conheca-os-novos-minigames-de-game--wario-para-wii-u.html
+- http://arena.ig.com.br/2013-06-10/knights-of-pen-and-paper-+1-edition-chega-dia-18-de-junho.html
+- http://arena.ig.com.br/2012-10-26/wii-u-oficial-nao-estara-disponivel-no-brasil-antes-de-2013.html
+- http://arena.ig.com.br/2013-02-14/nintendo-prepara-new-super-luigi-u-dlc-para-new-super-mario-bros-u.html
+- http://arena.ig.com.br/2013-05-17/nintendo-anuncia-sonic-lost-world-e-sonic--mario-winter-games.html
+- http://arena.ig.com.br/2013-04-02/rockstar-revela-capa-oficial-de-grand-theft-auto-v.html
+- http://arena.ig.com.br/2013-01-21/atari-inicia-processo-para-declarar-falencia.html
+- http://arena.ig.com.br/2012-11-21/jetpack-joyride-chega-ao-psp-ps-vita-e-ps3-pela-playstation-network.html
+- http://arena.ig.com.br/2013-02-21/infamous-second-son-e-novo-jogo-da-serie-para-o-playstation-4.html
+- http://arena.ig.com.br/2012-04-25/jogue-de-graca-jelly-escape-o-novo-jogo-brasileiro-de-plataforma.html
+- http://arena.ig.com.br/2012-11-07/simulador-de-tratores-agricolas-vende-mais-que-medal-of-honor-warfighter.html
+- http://arena.ig.com.br/2012-11-27/conheca-os-quatro-jogos-indie-criados-durante-o-festival-big-em-sp.html
+- http://arena.ig.com.br/2013-02-21/negando-rumores-sony-avisa-que-playstation-4-aceitara-jogos-usados.html
+- http://arena.ig.com.br/2012-12-05/jogo-brasileiro-skyrise-runner-chega-de-graca-ao-ios.html
+- http://arena.ig.com.br/2012-08-03/ea-entra-em-acao-contra-a-zynga.html
+- http://arena.ig.com.br/2012-08-15/amc-the-walking-dead-social-game-e-muito-jogo-social-e-pouco-walking-dead.html
+- http://arena.ig.com.br/2012-07-11/segundo-xfire-league-of-legends-e-o-jogo-mais-jogado-no-mundo.html
+- http://arena.ig.com.br/2013-08-29/campeonato-de-league-of-legends-no-ira-proibe-uso-de-personagens-femininas.html
+- http://arena.ig.com.br/2012-04-18/league-of-legends-ganhara-servidor-brasileiro.html
+- http://arena.ig.com.br/2013-02-21/drive-club-e-novo-jogo-dos-criadores-de-motorstorm-para-playstation-4.html
+- http://arena.ig.com.br/2013-02-21/contrariando-expectativas-blizzard-anuncia-diablo-iii-para-consoles.html
+- http://arena.ig.com.br/2013-02-21/engine-dos-criadores-de-heavy-rain-para-ps4-tem-recursos-de-filmes-em-cg.html
+- http://arena.ig.com.br/analises/2012-04-20/analise-resident-evil-operation-raccoon-city.html
+- http://arena.ig.com.br/2013-02-14/imagem-de-suposto-controle-de-playstation-4-cai-na-internet.html
+- http://arena.ig.com.br/2013-02-18/no-novo-playstation-retrocompatibilidade-sera-via-streaming-diz-jornal.html
+- http://arena.ig.com.br/2013-04-30/conferencia-da-microsoft-na-e3-acontece-em-10-de-junho.html
+- http://arena.ig.com.br/2012-05-07/thq-anuncia-company-of-heroes-2.html
+- http://arena.ig.com.br/2013-03-26/square-enix-anuncia-saida-de-ceo-e-prejuizo-de-r-277-milhoes-para-ano-fiscal.html
+- http://arena.ig.com.br/2013-03-19/presidente-da-ea-renuncia-ao-cargo.html
+- http://esporte.ig.com.br/futebol/2014-10-11/apesar-do-ebola-copa-africana-de-nacoes-de-futebol-segue-sem-mudancas.html
+- http://esporte.ig.com.br/basquete/2014-10-11/rio-volta-a-receber-a-nba-e-fas-formam-filas-para-comprar-produtos-da-liga.html
+- http://esporte.ig.com.br/lutas/2012-07-19/mutante-comemora-elogios-de-chefe-do-ufc-e-sonha-em-lutar-ao-lado-de-belfort.html
+- http://esporte.ig.com.br/basquete/2014-10-10/genio-do-basquete-tecnico-conquista-elenco-do-cavaliers-com-ideias-proprias.html
+- http://esporte.ig.com.br/futebol/2012-07-04/zagueiro-breno-e-condenado-a-3-anos-e-9-meses-de-prisao-na-alemanha.html
+- http://esporte.ig.com.br/basquete/2014-10-10/apos-ano-ausente-ala-do-heat-diz-nunca-ter-duvidado-de-nova-chance-na-nba.html
+- http://esporte.ig.com.br/basquete/2014-10-08/jovens-de-favela-no-rio-tem-aula-inesquecivel-de-basquete-com-campeao-da-nba.html
+- http://esporte.ig.com.br/futebol/2014-09-30/apos-reuniao-com-cbf-arbitros-descartam-greve-no-brasileirao.html
+- http://esporte.ig.com.br/futebol/2012-06-28/para-esposa-breno-estava-possuido-pelo-satanas-no-dia-do-incendio.html
+- http://esporte.ig.com.br/futebol/2012-07-03/acusado-de-incendiar-sua-casa-breno-tomava-uma-garrafa-de-whisky-por-dia.html
+- http://esporte.ig.com.br/basquete/2014-10-09/garoto-de-11-anos-ganha-autografo-de-lebron-e-promete-nunca-mais-lavar-a-camisa.html
+- http://esporte.ig.com.br/futebol/2014-09-26/chefe-de-arbitragem-da-cbf-rechaca-profissionalizacao-e-critica-tecnologia.html
+- http://esporte.ig.com.br/automobilismo/2014-03-19/aos-83-anos-ecclestone-admite-que-pensa-em-aposentadoria.html
+- http://esporte.ig.com.br/lutas/2012-09-05/anderson-silva-diz-que-ha-boiolas-no-ufc-e-que-usava-vestido-na-infancia.html
+- http://esporte.ig.com.br/lutas/2012-09-04/arianny-celeste-ring-girl-do-ufc-insiste-em-querer-alavancar-carreira-musical.html
+- http://esporte.ig.com.br/futebol/2012-04-19/na-tv-luis-fabiano-tira-duvida-sobre-sexo-antes-dos-jogos-e-se-a.html
